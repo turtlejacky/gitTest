@@ -24,6 +24,8 @@ namespace WebApplication1.Controllers
 
 		public ActionResult Contact()
 		{
+			var a = "this is fix language bug";
+
 			ViewBag.Message = "Your contact page.";
 
 			return View();
