@@ -10,6 +10,7 @@ namespace WebApplication1.Controllers
 	{
 		public ActionResult Index()
 		{
+			var a = "this is feature";
 			return View();
 		}
 
