@@ -16,8 +16,6 @@ namespace WebApplication1.Controllers
 
 		public ActionResult About()
 		{
-			var a = "this is language";
-
 			ViewBag.Message = "Your application description page.";
 
 			return View();
